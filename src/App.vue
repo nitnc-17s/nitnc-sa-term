@@ -587,13 +587,15 @@
           </DocArticle>
 
           <DocArticle number="34" name="課">
-            執行部に、次に掲げる課を置く。
-            <DocList type="漢数字">
-              <DocListItem number="1">議事運営課</DocListItem>
-              <DocListItem number="2">会計課</DocListItem>
-              <DocListItem number="3">総務課</DocListItem>
-              <DocListItem number="4">広報課</DocListItem>
-            </DocList>
+            <DocParagraph number="1">
+              執行部に、次に掲げる課を置く。
+              <DocList type="漢数字">
+                <DocListItem number="1">議事運営課</DocListItem>
+                <DocListItem number="2">会計課</DocListItem>
+                <DocListItem number="3">総務課</DocListItem>
+                <DocListItem number="4">広報課</DocListItem>
+              </DocList>
+            </DocParagraph>
           </DocArticle>
 
           <DocArticle number="35" name="課の構成">

@@ -1,5 +1,5 @@
 <template>
-  <a :href="target" :v-scroll-to="target" class="doc-link"><slot></slot></a>
+  <a data-scroll :href="target" class="doc-link"><slot></slot></a>
 </template>
 
 <script lang="ts">
@@ -32,3 +32,8 @@ export default class DocLink extends Vue {
   }
 }
 </script>
+
+<style lang="stylus">
+.doc-link-target
+  background-color #FFC
+</style>
