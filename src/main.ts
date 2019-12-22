@@ -18,10 +18,15 @@ const scroll = new SmoothScroll('a[href*="#"]', {
   emitEvents: true
 });
 
+let BeforeEvent: any;
 document.addEventListener(
   "scrollStart",
   (event: any) => {
+    if (BeforeEvent != undefined) {
+      BeforeEvent.detail.anchor.classList.remove("doc-link-target");
+    }
     event.detail.anchor.classList.add("doc-link-target");
+    BeforeEvent = event;
   },
   false
 );
